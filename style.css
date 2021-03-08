@@ -1,0 +1,484 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 12pt;
+    margin: auto;
+}
+
+/* Navigation */
+
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navigation-container {
+    max-width: 65%;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.nav-links-container {
+    max-width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-content: center;
+}
+
+.nav-div {
+    font-size: 15pt;
+    max-width: 30%;
+    margin: auto;
+    padding-left: 200px;
+}
+
+/* Headings */
+h1 {
+    font-size: 50pt;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 40pt;
+}
+
+h3 {
+    font-size: 25pt;
+    text-transform: uppercase;
+}
+
+.welcome-heading {
+    font-style: italic;
+}
+
+.project-heading {
+    text-align: center;
+}
+
+.form-heading {
+    text-transform: none;
+}
+
+/* Links */
+a {
+    color: #068415;
+}
+
+a:hover {
+    color: #060F84;
+}
+
+a:visited {
+    color: #45148F;
+}
+
+/* Lines */
+.line {
+    margin: 20px;
+}
+
+.middle-line {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Sections */
+section {
+    margin: auto;
+}
+
+/* Heading Section*/
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 65%;
+    margin: auto;
+    flex-direction: row;
+}
+
+/* Photo Section*/
+.photos-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row; 
+}
+
+.photo-container {
+    max-width: 65%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.photo-div {
+    max-width: 50%;
+    border-radius: 4px;
+}
+
+.photo {
+    max-width: 75%;
+    padding: 1px;
+    border: 1px solid #CED0CE;
+}
+
+/* About Me Section */
+.about-me-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.welcome-container {
+    max-width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.about-me-container, .interests-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 65%;
+}
+
+.about-me-paragraph-div, .interests-paragraph-div {
+    margin: 0px 50px;
+}
+
+.about-me-paragraph, .interests-paragraph {
+    text-align: center;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio-heading-container, .all-project-container {
+    max-width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.project-container {
+    max-width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px 20px;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-heading-container {
+    max-width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px 0px;
+}
+
+.contact-links-container {
+    max-width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.contact-links-div {
+    max-width: 30%;
+    margin: 0px 20px;
+}
+
+/* Form */
+.form-container {
+    max-width: 65%;
+}
+
+.form-heading-div {
+    display: flex;
+    justify-content: center;
+}
+
+.form-div {
+    padding: 10px;
+    border: 2px solid black;
+    min-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+form {
+    padding: 10px;
+}
+
+#name, #email {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    padding: 5px;
+}
+
+textarea {
+    border: 1px solid black;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    padding: 5px;
+}
+
+button {
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/* Footer Section*/
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footer-div {
+    display: flex;
+    align-content: center;
+}
+
+
+/* Mobile */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navigation-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .heading-container {
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        font-size: 25pt;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 20pt;
+        text-align: center;
+    }
+
+    .photo-container {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        padding: 5px;
+        min-width: 100%;
+    }
+
+    .photo {
+        min-height: 100%;
+        display: flex;
+        align-content: center;
+    }
+
+    .project-container {
+        flex-wrap: wrap;
+    }
+
+    h2 {
+        font-size: 23pt;
+    }
+
+    .about-me-container {
+        flex-wrap: wrap;
+    }
+
+    .interests-container {
+        flex-wrap: wrap;
+    }
+    
+    .all-project-container {
+        flex-direction: column;
+    }
+}
+
+/* Tablet */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    
+    .navigation-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .heading-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 27pt;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 22pt;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 25pt;
+    }
+
+    .all-project-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .project-container {
+        flex-direction: column;
+    }
+}
+
+/* Small Screen */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navigation-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 29pt;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 22pt;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 25pt;
+    }
+
+    .heading-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .all-project-container {
+        width: 85%;
+        flex-direction: row;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+}
+
+/* Desktops - Large Screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    h1 {
+        font-size: 32pt;
+    }
+    
+    h3 {
+        font-size: 22pt;
+    }
+
+    h2 {
+        font-size: 27pt;
+    }
+
+    .all-project-container {
+        width: 65%;
+        flex-direction: row;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 1201px) and (max-width: 3000px) {
+    .all-project-container {
+        width: 65%;
+        flex-direction: row;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
